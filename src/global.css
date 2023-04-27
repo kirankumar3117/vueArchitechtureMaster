@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial", Helvetica, "PingFang SC";
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.v-modal {
+    z-index: 100 !important;
+}
+
+.el-badge__content.is-fixed {
+    border: none;
+    height: 13px;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 0 4px;
+}
+
+
+/*Elements styles override*/
+
+button.el-button--primary {
+    color: #fff;
+    background-color: #549ce5;
+    border-color: #549ce5;
+}
+
+button.el-button--primary:focus, .el-button--primary:hover {
+    color: #fff;
+    background-color: #549ce5;
+    border-color: #549ce5;
+}
+
+button.el-button--success {
+    color: #fff;
+    background-color: #379907;
+    border-color: #3a970d;
+}
+
+
